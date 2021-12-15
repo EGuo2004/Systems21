@@ -9,7 +9,6 @@ int main(int argc, char *argv[]) {
   from_server = client_handshake( &to_server );
   
   char line[100];
-  printf("check\n");
   while(1) {
     printf("What do you want?\n");
     fgets(line, sizeof(line), stdin);
