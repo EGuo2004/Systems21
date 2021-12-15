@@ -73,7 +73,7 @@ int client_handshake(int *to_server) {
 
   printf("Recieved Secret Name:%s\n", ack);
 
-  printf("Removing Secret");
+  printf("Removing Secret\n");
   remove(secret);
 
   if (!strcmp(ack, ACK)) {
